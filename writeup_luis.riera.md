@@ -18,7 +18,7 @@ used. The steps were implemented in the following sequence:
     project template. I did not play with the suggested notes regarding
     saving the image into Black and White as resulted image, show below,
     worked well to achieve the drawing of the line objective.
-    [Grayscale]
+    ![Grayscale]
 
 2.  **Applying Gaussian filter to the grayscale image.** The Gaussian
     conversion was used to average the pixels in their adjacent areas to
