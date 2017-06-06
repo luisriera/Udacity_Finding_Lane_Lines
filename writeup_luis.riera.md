@@ -1,6 +1,5 @@
 # **Finding Lane Lines on the Road** 
 ---
-//]: # (Image References)
 
 
 [Grayscale]: ./test_images_output/gray_solidWhiteCurve.jpg "Grayscale"
