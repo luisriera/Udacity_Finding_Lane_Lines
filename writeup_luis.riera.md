@@ -1,27 +1,12 @@
 # **Finding Lane Lines on the Road** 
-
-
-
-
-
 ---
-
-**Finding Lane Lines on the Road**
-
-The goals / steps of this project are the following:
-* Make a pipeline that finds lane lines on the road
-* Reflect on your work in a written report
-
-
-[//]: # (Image References)
+//]: # (Image References)
 
 [image1]: ./examples/grayscale.jpg "Grayscale"
 
----
+## Reflection
 
-### Reflection
-
-1\. Pipeline description
+###1. Pipeline description
 
 To achieve the objective of this project, a Pipeline of 5 steps was
 used. The steps were implemented in the following sequence:
@@ -63,7 +48,7 @@ used. The steps were implemented in the following sequence:
     image to provide an image showing the demarked lane lines.
     &lt;&lt;image&gt;&gt;
 
-2\. Identify potential shortcomings with your current pipeline
+###2. Identify potential shortcomings with your current pipeline
 
 The pipeline in my project accomplished satisfactory results for the
 test images and two sample videos. However, it was not capable to work
@@ -86,7 +71,7 @@ can think of are
 
 -   Closed low radius curves.
 
-3\. Suggest possible improvements
+###3. Suggest possible improvements
 
 Most of the parameters in my pipeline were hardcoded. This can create
 issues for the Canny Edges detection and the Hough Transform functions
