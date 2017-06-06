@@ -35,8 +35,8 @@ used. The steps were implemented in the following sequence:
     ![Gaussian]
 
 3.  **Converting to Canny regional lines.** The resulting
-    Gaussian image was converted to Canny space using a `low\_threshold =
-    50` and `high\_threshold = 150`. I experimented with different values,
+    Gaussian image was converted to Canny space using a `low_threshold =
+    50` and `high_threshold = 150`. I experimented with different values,
     but these values give me a good balance of details and low noise. A
     mask was applied to Canny image to preserve only in the lane lines
     edges by setting the everything else to black. The chosen area was
@@ -46,11 +46,11 @@ used. The steps were implemented in the following sequence:
     ![Canny]
     
 4.  **Applying Hough Transform.** To detect the lines in the Canny
-    image, the helper function hough\_lines was executed. This function
+    image, the helper function hough_lines was executed. This function
     converted the pixels lines in the Canny image to lines segment using
     Hough space transformation, where dots are converted to lines. After
     several tray, the parameters that give better results were:
-    `threshold = 3`, `min\_line\_length = 5`, and `max\_line\_gap = 20`.
+    `threshold = 3`, `min_line_length = 5`, and `max_line_gap = 20`.
     ![Houghed]
 
 5.  **Fusing Images.** The resulted Hough images fused with the original
